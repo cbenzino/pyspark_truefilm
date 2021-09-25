@@ -1,0 +1,12 @@
+{
+  "deployment_mode": "local[*]",
+  "app_name": "movies_analysis",
+  "csv_file_path": "movies_metadata.csv",
+  "xml_file_path": "enwiki_latest_abstract.xml",
+  "jdbc_mode": "overwrite",
+  "jdbc_url": "jdbc:postgresql://192.168.0.106:5433/truemovies",
+  "jdbc_user": "postgres",
+  "jdbc_password": "  ",
+  "jdbc_driver": "org.postgresql.Driver",
+  "jdbc_table": "movies.movies_data"
+}
